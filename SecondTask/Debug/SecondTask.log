@@ -1,0 +1,4 @@
+﻿  Second.cpp
+c:\users\yavor\documents\visual studio 2015\projects\it_step_pointers\secondtask\second.cpp(49): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SecondTask.vcxproj -> C:\Users\Yavor\documents\visual studio 2015\Projects\It_Step_Pointers\Debug\SecondTask.exe
+  SecondTask.vcxproj -> C:\Users\Yavor\documents\visual studio 2015\Projects\It_Step_Pointers\Debug\SecondTask.pdb (Partial PDB)
