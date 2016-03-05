@@ -1,3 +1,8 @@
+
+/*2. Given two arrays arranged in an ascending order: А[n]
+and B[m]. Form an array C[n+m] consisting of elements of
+the arrays А and В arranged in an ascending order.*/
+
 #include <iostream>
 #include <time.h>
 
@@ -9,12 +14,14 @@ void sort(int arr[], int Size);
 void swap(int *p, int *q);
 void initThird(int *p, int *q, int *f, int Size);
 void main() {
+	//Step1: Initiallize sizes and declare three arrays:
 	const int Size = 5;
 	const int Sizeb = 3;
 	const int Sizec = 8;
 	int a[5];
 	int b[3];
 	int c[8];
+	//Step 2: Declare and initiallize the pointers
 	int *p, *q, *f;
 	p = &a[0];
 	q = p + 1;
@@ -24,7 +31,7 @@ void main() {
 	cout << endl << "Sorted: ";
 	sort(a, Size);
 	print(p,Size);
-	
+	//Step 3: Initiallize, print and sort arrays:
 	p = &b[0];
 	q = p + 1;
 	init(p, Sizeb);
